@@ -36,13 +36,13 @@ class CommentForm extends Component {
             <form style={style.commentForm} onSubmit={this.handleSubmit}>
                 <input
                     type='text'
-                    placeholder='Your name…'
+                    placeholder='Adınız'
                     style={style.commentFormAuthor}
                     value={this.state.author}
                     onChange={this.handleAuthorChange} />
                 <input
                     type='text'
-                    placeholder='Say something…'
+                    placeholder='Yorumunuz'
                     style={style.commentFormText}
                     value={this.state.text}
                     onChange={this.handleTextChange} />
